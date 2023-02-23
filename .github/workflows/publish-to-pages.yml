@@ -78,6 +78,7 @@ jobs:
   # Deployment job
   deploy:
     environment:
+        CI: false
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
