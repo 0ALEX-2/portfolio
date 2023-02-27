@@ -12,7 +12,8 @@ import {
    
   export default function ProjectCard({img,title,about,techUsed,github,deployed}) {
     return (
-      <Card className="w-full shadow-lg h-[700px]">
+      <Card 
+      className="w-full shadow-lg h-[700px]">
         <CardHeader floated={false} color="blue-gray">
           <motion.img
            initial={{

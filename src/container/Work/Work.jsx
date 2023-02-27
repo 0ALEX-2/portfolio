@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ProjectCard from '../../components/projectCard/ProjectCard'
+import {motion} from "framer-motion"
 
 const Work = () => {
 
@@ -77,7 +78,19 @@ const data=[
       <p className='uppercase tracking-[20px]  text-2xl text-slate-400'>projects</p>
  
       
-    <div className='md:grid mt-10 grid-cols-2 lg:grid-cols-3  gap-5 items-center justify-center md:w-[80%] '>
+    <motion.div 
+     initial={{
+      y: -200,
+      opacity: 0,
+    }}
+    transition={{
+      duration: 1.2,
+    }}
+    whileInView={{
+      x: 0,
+      opacity: 1,
+    }}
+    className='md:grid mt-10 grid-cols-2 lg:grid-cols-3  gap-5 items-center justify-center md:w-[80%] '>
       {
         data && data.map((ele,index)=>(
           <div key={index} className='mt-10 md:mt-0'>
@@ -87,7 +100,7 @@ const data=[
         ))
       }
     
-    </div>
+    </motion.div>
     </div>
   )
 }
