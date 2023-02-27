@@ -90,7 +90,7 @@ const data=[
       x: 0,
       opacity: 1,
     }}
-    className='md:grid mt-10 grid-cols-2 lg:grid-cols-3  gap-5 items-center justify-center md:w-[80%] '>
+    className='md:grid mt-[250px] grid-cols-2 lg:grid-cols-3  gap-5 items-center justify-center md:w-[80%] '>
       {
         data && data.map((ele,index)=>(
           <div key={index} className='mt-10 md:mt-0'>
