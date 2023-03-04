@@ -56,24 +56,25 @@ const About = () => {
           </div>
 
           <div className="flex justify-center space-x-8 md:justify-start items-center">
-            <a
+            <motion.a
               href="https://www.linkedin.com/in/programmersakil/"
               target="_blank"
+              whileTap={{scale:0.6}}
             >
               <img
                 src="https://1000logos.net/wp-content/uploads/2017/03/Linkedin-Logo-2003.png"
                 alt="linkedin"
-                className="w-[100px] h-[50px] md:w-[150px] md:h-[60px]"
+                className="w-[100px] p-2 h-[50px] md:w-[150px] md:h-[60px] hover:border border-blue-500 rounded-full"
               />
-            </a>
+            </motion.a>
 
-            <a href="https://github.com/0ALEX-2" target="_blank">
+            <motion.a href="https://github.com/0ALEX-2" target="_blank" whileTap={{scale:0.6}}>
               <img
                 src="https://pngimg.com/d/github_PNG15.png"
                 alt="github"
-                className="w-[100px] h-[50px] md:w-[150px] md:h-[50px]"
+                className="w-[100px] p-1 h-[50px] md:w-[150px] md:h-[50px] hover:border border-blue-500 rounded-full"
               />
-            </a>
+            </motion.a>
           </div>
         </div>
       </div>
