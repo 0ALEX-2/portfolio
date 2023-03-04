@@ -4,7 +4,7 @@ import resume from "./resume.pdf";
 
 const About = () => {
   return (
-    <div className="pt-[150px] mb-[100px]">
+    <div className="pt-[150px] mb-[100px] md:mt-[100px] md:pt-50">
       <h3 className=" uppercase tracking-[20px] top-20 text-2xl text-slate-400 text-center">
         about
       </h3>
@@ -40,7 +40,7 @@ const About = () => {
             is looking for a role in the similar field to contribute and to
             learn ins and outs of a new industry and provide ample value to it.{" "}
             <a href="#contact" className="text-blue-400">
-              Let's buld something unique togather!
+              Let's build something unique togather!
             </a>{" "}
           </p>
 

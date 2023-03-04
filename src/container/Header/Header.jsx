@@ -17,7 +17,7 @@ const Header = () => {
     delaySpeed:1500,
 })
   return (
-    <div className='pb-10 h-screen flex flex-col space-y-8 items-center justify-center text-center pt-[330px]'>
+    <div className='pb-[100px] h-screen flex flex-col space-y-8 items-center justify-center text-center pt-[330px] md:mt-[100px]'>
      
     <BackgroundCircle/>
     <img className='h-36 w-36 relative rounded-full mx-auto object-cover' src="https://avatars.githubusercontent.com/u/98159898?v=4" alt="Photo" />
