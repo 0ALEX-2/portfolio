@@ -13,7 +13,7 @@ import {
   export default function ProjectCard({img,title,about,techUsed,github,deployed}) {
     return (
       <Card 
-      className="w-full shadow-lg h-[700px]">
+      className="w-full shadow-lg h-[820px]">
         <CardHeader floated={false} color="blue-gray">
           <motion.img
            initial={{
@@ -56,7 +56,7 @@ import {
               x:0,
               opacity:1
           }}
-          className="group mt-[50px] md:mt-[100px] inline-flex flex-wrap items-center gap-3">
+          className="group mt-[20px] md:pt-[120px] inline-flex flex-wrap items-center gap-3">
            {
          techUsed.map((ele,index)=>( 
             <div key={index} className="cursor-pointer rounded-full border border-blue-500/5 bg-blue-500/5 p-1 text-blue-500 transition-colors hover:border-blue-500/10 hover:bg-blue-500/10 hover:!opacity-100 group-hover:opacity-70">

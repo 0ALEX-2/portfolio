@@ -14,7 +14,7 @@ const data=[
     github:"https://github.com/santoshy1101/questionable-milk-2896",
     deployed:"https://poetic-cobbler-9476b0.netlify.app/",
     title:"Clone of e-commerce website MEESHO",
-    about:"This is a group project. We build this website with the help of React.js and for state management we use React-Redux and for data base we deployed our data on vercel and use that link to fetch data. For styling we used Tailwind css. We deploy this web-app on netlify.",
+    about:"This is a group project. We build this website with the help of React.js and for state management we use React-Redux and for data base we deployed our data on vercel and use that link to fetch data. For styling we used Tailwind css. We deploy this web-app on netlify. All the pages of this website is not mobile responsive yet.",
     techUsed:[
       "https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png",
       "https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png",
@@ -31,7 +31,7 @@ const data=[
     github:"https://github.com/Harshank11/PharmEasy",
     deployed:"https://enchanting-bonbon-ad5692.netlify.app/homepage/index.html",
     title:"Clone of e-commerce medicine selling website PharmEasy",
-    about:"This is a collaborative work. During building this web site we use HTML, Javascript and CSS for data base we deployed our data on vercel and use that link to fetch data.",
+    about:"This is a collaborative work. During building this web site we use HTML, Javascript and CSS for data base we deployed our data on vercel and use that link to fetch data. This website is not mobile responsive yet.",
     techUsed:[
       "https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png",
       "https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png",
@@ -45,7 +45,7 @@ const data=[
     github:"https://github.com/saikhmirsat/Yoox.com-Clone",
     deployed:"https://yoox-com.vercel.app/",
     title:"Clone of e-commerce website YOOX",
-    about:"This is a collaborative project. During building this website we use React.js and for state management we use context api and for data base we deployed our data on vercel and use that link to fetch data with the help of axios. We deploy the web app on vercel",
+    about:"This is a collaborative project. During building this website we use React.js and for state management we use context api and for data base we deployed our data on vercel and use that link to fetch data with the help of axios. We deploy the web app on vercel.  All the pages of this website is not mobile responsive yet.",
     techUsed:[
       "https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png",
       "https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png",
