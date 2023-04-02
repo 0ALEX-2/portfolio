@@ -55,7 +55,7 @@ const initialData=[
     type:"single",
     img:"https://images.ctfassets.net/lzny33ho1g45/O6Ns6DttUzJym7rhGiD36/9affffb4ec5c115b8f742cd34b663cff/best_to_do_apps.jpg?w=1520&fm=jpg&q=30&fit=thumb&h=760",
     github:"https://github.com/0ALEX-2/todo-assignment",
-    deployed:"https://peaceful-fenglisu-8fbd55.netlify.app/",
+    deployed:"https://fascinating-smakager-cddef9.netlify.app",
     title:"Full-stack MERN Todo Web App",
     about:"This is a full-stack MERN web app. The frontend is made up of ReactJS and for styling I used Tailwind CSS. And for backend I used NodeJS, ExpressJS and MongoDB database. I Deployed the app on Netlify for frontend and Render.com for backend.",
     techUsed:[
